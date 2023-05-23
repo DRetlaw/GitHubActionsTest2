@@ -1,5 +1,8 @@
 name: LearningWorkflow1
 on:
+  push:
+    branches:
+      - add-actions
 
 jobs:
   print_hello:
